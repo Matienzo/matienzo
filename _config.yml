@@ -3,16 +3,16 @@
 
 title: Poder Judicial
 description: Jekyll template for API documentation.
-url: https://matienzo.github.io
+url: https://example.com
 google_analytics_key:
 
 collections:
   Tutorial:
     title: Tutorial
     position: 1
-  # api:
-  #   title: APIs
-  #   position: 2
+  api:
+    title: APIs
+    position: 2
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag

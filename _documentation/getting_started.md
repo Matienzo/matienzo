@@ -1,5 +1,5 @@
 ---
-title: Introducción
+title: Introducción a Git
 position: 1
 ---
 
