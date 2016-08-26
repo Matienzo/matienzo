@@ -5,24 +5,17 @@ right_code: |
   ~~~ bash
     git init <nombre-repo>
 
-    git add .   
-
-    git commit -m "Primer commit"
 
 
   ~~~
-  {: title="Inicializando repositorio vacio" }
+  {: title="Response" }
 
   ~~~ bash
     git clone <url-repo>
 
-    git add .   
-
-    git commit -m "Primer commit"
-
 
   ~~~
-  {: title="Clonando repositorio" }
+  {: title="Error" }
 
 ---
 
