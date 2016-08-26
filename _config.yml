@@ -7,7 +7,7 @@ url: https://example.com
 google_analytics_key:
 
 collections:
-  Tutorial:
+  documentation:
     title: Tutorial
     position: 1
   api:
