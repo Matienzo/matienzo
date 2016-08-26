@@ -2,7 +2,7 @@
 title: Inicializar Repositorio - Primer commit
 position: 2
 right_code: |
-  ~~~ git
+  ~~~ bash
     git init <nombre-repo>
 
     git add .   
@@ -13,7 +13,7 @@ right_code: |
   ~~~
   {: title="Inicializando repositorio vacio" }
 
-  ~~~ git
+  ~~~ bash
     git clone <url-repo>
 
     git add .   
@@ -31,4 +31,5 @@ Hay dos formas de empezar a trabajar con Git.
 Una es crear un repositorio vacío.
 
 La otra es clonar un repositorio ya existente.
-Para este caso debemos proveer una url{: .error }
+Para este caso debemos proveer una url
+{: .error }
