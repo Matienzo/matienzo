@@ -1,23 +1,34 @@
 ---
-title: Authentication
+title: Inicializar Repositorio - Primer commit
 position: 2
 right_code: |
-  ~~~ javascript
-  $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
-    alert(data);
-  });
-  ~~~
-  {: title="jQuery" }
+  ~~~ git
+    git init <nombre-repo>
 
-  ~~~ bash
-  curl http://api.myapp.com/books?token=YOUR_APP_KEY
+    git add .   
+
+    git commit -m "Primer commit"
+
+
   ~~~
-  {: title="Curl" }
+  {: title="Inicializando repositorio vacio" }
+
+  ~~~ git
+    git clone <url-repo>
+
+    git add .   
+
+    git commit -m "Primer commit"
+
+
+  ~~~
+  {: title="Clonando repositorio" }
+
 ---
 
-You need to be authenticated for all API requests. You can generate an API key in your developer dashboard.
+Hay dos formas de empezar a trabajar con Git.
 
-Add the API key to all requests as a GET parameter.
+Una es crear un repositorio vacío.
 
-Nothing will work unless you include this API key
-{: .error }
+La otra es clonar un repositorio ya existente.
+Para este caso debemos proveer una url{: .error }
