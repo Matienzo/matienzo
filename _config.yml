@@ -7,11 +7,11 @@ url: https://example.com
 google_analytics_key:
 
 collections:
-  documentation:
-    title: Tutorial
+  git:
+    title: Git
     position: 1
-  api:
-    title: APIs
+  javascript:
+    title: Javascript
     position: 2
 gems:
   - jekyll-sitemap
