@@ -7,7 +7,7 @@ url: https://example.com
 google_analytics_key:
 
 collections:
-  git:
+  git_posts:
     title: Git
     position: 1
   javascript:

@@ -2,8 +2,16 @@
 title: Introducción a Git
 position: 1
 ---
+![image-title-here](/images/git_logo.png){:class="img-responsive"}
+Git es un sistema de control de versiones distribuido.
+Fue creado por Linus Torvalds para mantener el codigo fuente de Linux.
 
-Welcome to our API.
+
+
+
+
+
+<!-- Welcome to our API.
 
 This API document is designed for those interested in developing for our platform.
 
@@ -19,4 +27,4 @@ Something may not happen if you try and do this.
 {: .warning }
 
 Something bad will happen if you do this.
-{: .error }
+{: .error } -->
