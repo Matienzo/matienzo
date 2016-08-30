@@ -2,8 +2,10 @@
 title: Introducción a Git
 position: 1
 ---
-![image-title-here](/images/git_logo.png){:class="img-responsive"}
+<img src="images/git_logo.jpg" alt="Drawing" style="width: 200px; float:left;"/>
+
 Git es un sistema de control de versiones distribuido.
+
 Fue creado por Linus Torvalds para mantener el codigo fuente de Linux.
 
 
