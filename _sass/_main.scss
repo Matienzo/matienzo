@@ -557,15 +557,14 @@ header {
 }
 
 /* Para centrar imagen */
-.center-image
-{
-    margin: 0 auto;
-    display: block;
+.center-image{
+	margin: 0 auto;
+	display: block;
 }
+
 /* Para hacer responsiva una imagen*/
-.img-responsive
-{
-display: block;
-max-width: 100%;
-height: auto;
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
