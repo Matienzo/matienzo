@@ -2,7 +2,9 @@
 title: Introducción a Git
 position: 1
 ---
-<img src="images/git_logo.jpg" alt="image-center" class="align-center">
+
+![Git Logo](/images/git_logo.jpg){: .center-image }
+
 
 
 Git es un sistema de control de versiones distribuido.
