@@ -1,10 +1,12 @@
 ---
-
+title: Introducción
 position: 1
 ---
-# Dillinger one 
 ![Git Logo](/images/git_logo2.jpg){: .center-image .img-responsive }
 
+#####Instalar git
+------
+Para instalar Git ......
 
 
 Install the dependencies and devDependencies and start the server.
