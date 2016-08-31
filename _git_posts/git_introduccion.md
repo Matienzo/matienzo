@@ -4,14 +4,17 @@ position: 1
 ---
 ![Git Logo](/images/git_logo2.jpg){: .center-image .img-responsive }
 
+#### Qué es Git?
+
 Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux.
-A diferencia de los sistemas centralizados como *Subversion*, los VCS(version control system) distribuidos manejan una copia local del repositorio, por lo que no necesitan estar conectados a un repositorio central para trabajar con los archivos.
+
+A diferencia de los sistemas centralizados como *Subversion*, los VCS(version control system) distribuidos <strong>manejan una copia local del repositorio</strong>, por lo que no necesitan estar conectados a un repositorio central para trabajar con los archivos.
 
 
 
 
 
-####Instalar git
+
 ------
 Para instalar Git debemos bajarlo de su pagina oficial. Git.scm.com
 Para probar si quedo bien instalado:
