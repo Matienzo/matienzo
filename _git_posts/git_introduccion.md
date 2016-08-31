@@ -42,15 +42,17 @@ Git es un sistema de control de versiones *distribuido*.
 Fue creado por Linus Torvalds para mantener el codigo fuente de Linux.
 
 #### Cuarto titulo
-======
+<hr>
 
 
 ##### Quinto titulo
-======
+<hr>
 
 
 ###### Sexto titulo
-======
+<hr>
+
+<hr>
 
 
 
