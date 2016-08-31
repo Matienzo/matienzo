@@ -3,7 +3,7 @@ title: Introducción a Git
 position: 1
 ---
 
-![Git Logo](/images/git_logo.jpg){: .center-image }
+![Git Logo](/images/git_logo.jpg){: .center-image .img-responsive }
 
 
 
