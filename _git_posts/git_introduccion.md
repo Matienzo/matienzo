@@ -4,18 +4,25 @@ position: 1
 ---
 ![Git Logo](/images/git_logo2.jpg){: .center-image .img-responsive }
 
-#####Instalar git
+Git es un sistema de control de versiones *distribuido*.
+
+Fue creado por Linus Torvalds para mantener el codigo fuente de Linux.
+
+
+####Instalar git
 ------
-Para instalar Git ......
-
-
-Install the dependencies and devDependencies and start the server.
-
+Para instalar Git debemos bajarlo de su pagina oficial. Git.scm.com
+Para probar si quedo bien instalado:
 ```sh
-$ cd dillinger
-$ npm install -d
-$ node app
+$ git --version
+Esto debería devolver algo así como "git version 2.5.1.windows.1"
 ```
+Esto debería devolver algo así como "git version 2.5.1.windows.1"
+
+
+Una vez instalado 
+
+
 
 For production environments...
 
@@ -25,21 +32,8 @@ $ npm run predeploy
 $ NODE_ENV=production node app
 ```
 
-## Otro titulo
-======
-
-### tercer titulo
-
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop files into Dillinger
-  - Export documents as Markdown, HTML and PDF
 
 
-
-Git es un sistema de control de versiones *distribuido*.
-
-Fue creado por Linus Torvalds para mantener el codigo fuente de Linux.
 
 #### Cuarto titulo
 <hr>
