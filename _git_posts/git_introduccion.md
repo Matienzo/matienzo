@@ -1,11 +1,11 @@
 ---
-title: Introducción
+
 position: 1
 ---
-
+# Dillinger one 
 ![Git Logo](/images/git_logo2.jpg){: .center-image .img-responsive }
 
-# Dillinger one 
+
 
 Install the dependencies and devDependencies and start the server.
 
