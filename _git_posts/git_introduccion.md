@@ -24,6 +24,7 @@ $ NODE_ENV=production node app
 ```
 
 ## Otro titulo
+======
 
 ### tercer titulo
 
@@ -34,10 +35,20 @@ You can also:
 
 
 
-Git es un sistema de control de versiones distribuido.
+Git es un sistema de control de versiones *distribuido*.
 
 Fue creado por Linus Torvalds para mantener el codigo fuente de Linux.
 
+#### Cuarto titulo
+======
+
+
+##### Quinto titulo
+======
+
+
+###### Sexto titulo
+======
 
 
 
