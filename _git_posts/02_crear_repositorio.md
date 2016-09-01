@@ -11,20 +11,25 @@ Para crear un repositorio utilizamos el comando *git init*.
 
 Una vez inicializado, git comienza a hacerle un seguimiento a todos los cambios que se produzcan en el directorio donde este el repositorio.
 
+Inicializar un repositorio vacío en el directorio actual:
+{: .success }
 ```sh
 $ git init
 Initialized empty Git repository in ... (path)
 ```
-Inicializa un repositorio vacío en el directorio actual.
 <br>
 
+Inicializa un repositorio vacío en el directorio especificado.
+{: .success }
 ```sh
 $ git init <directory>
 Initialized empty Git repository in <directory>
 ```
-Inicializa un repositorio vacío en el directorio especificado.
+
 <br>
 
+Inicializa un repositorio vacío en el directorio especificado. Este repositorio no tiene working copy, osea no tiene el código. <strong> Los repositorios compartidos deben ser siempre --bare.</strong>
+{: .success }
 ```sh
 $ git init --bare <directory>
 Initialized empty Git repository in <directory>
