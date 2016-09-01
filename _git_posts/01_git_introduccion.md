@@ -22,7 +22,7 @@ En la imagen se ve claramente como en un sistema de control de versiones distrib
 
 #### Instalación
 ------
-Para instalar Git debemos bajarlo de su página oficial [git-scm.com](https://git-scm.com/ "Página oficial de Git"). Para probar si quedó bien instalado:
+Para instalar Git debemos bajarlo de su página oficial [git-scm.com](https://git-scm.com/ "Página oficial de Git"). Para probar si quedó bien instalado (Windows):
 
 ```sh
 $ git --version
