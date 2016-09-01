@@ -12,7 +12,7 @@ Un proyecto Git tiene tres partes:
 </ul>
 
 <br>
-El flujo de trabajo en Git consiste en editar archivos en el working directory, agregar archivos al staging area, y guardando los cambios en el repositorio con commit.
+El flujo de trabajo en Git consiste en editar archivos en el working directory, agregar archivos al staging area, y guardar los cambios en el repositorio con commit.
 
 
 
