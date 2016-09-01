@@ -14,8 +14,9 @@ Esto hace que uno pueda estar en un avión trabajando en su repositorio local (c
 
 
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png" class="center-image" style="display: block;	max-width: 70%;	height: auto;">
-<div class="text-center">VCS centralizado vs VCS distribuido</div>
 
+<br>
+<br>
 
 #### Instalación
 ------
@@ -29,7 +30,6 @@ git version 2.5.1.windows.1
 ```
 
 <br>
-
 
 
 
