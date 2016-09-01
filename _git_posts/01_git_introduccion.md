@@ -28,9 +28,8 @@ Para instalar Git debemos bajarlo de su página oficial [git-scm.com](https://gi
 $ git --version
 git version 2.5.1.windows.1
 ```
-<br>
 
-Para configurar el usuario local para todos los repositorios locales.
+Luego, para configurar el usuario local para todos los repositorios locales:
 
 ```sh
 $ git config --global user.name "[name]"
