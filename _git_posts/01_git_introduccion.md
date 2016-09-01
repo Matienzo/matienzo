@@ -31,6 +31,7 @@ git version 2.5.1.windows.1
 <br>
 
 Para configurar el usuario local para todos los repositorios locales.
+
 ```sh
 $ git config --global user.name "[name]"
 $ git config --global user.email "[email address]"
