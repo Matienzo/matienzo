@@ -6,10 +6,10 @@ Hay dos formas de empezar a trabajar con Git. Una es creando un repositorio y ot
 
 #### Crear nuevo repositorio
 ------
-Para crear un repositorio utilizamos el comando *git init*.
+Para crear un repositorio utilizamos el comando <strong>*git init*<strong>.
 
 
-Una vez inicializado, git comienza a hacerle un seguimiento a todos los cambios que se produzcan en el directorio donde este el repositorio.
+Una vez inicializado, git comienza a hacerle un seguimiento a todos los cambios que se produzcan en el directorio donde está el repositorio.
 
 Inicializar un repositorio vacío en el directorio actual:
 {: .info }
@@ -18,7 +18,7 @@ $ git init
 Initialized empty Git repository in ... (path)
 ```
 
-Inicializar un repositorio vacío en el directorio especificado.
+Inicializar un repositorio vacío en el directorio especificado:
 {: .info }
 ```sh
 $ git init <directory>
@@ -31,7 +31,6 @@ Inicializar un repositorio "--bare". Este repositorio no tiene working copy, ose
 $ git init --bare <directory>
 Initialized empty Git repository in <directory>
 ```
-Inicializa un repositorio vacío en el directorio especificado. Este repositorio no tiene working copy, osea no tiene el código. <strong> Los repositorios compartidos deben ser siempre --bare.</strong>
 
 <br>
 
