@@ -29,7 +29,6 @@ $ git --version
 git version 2.5.1.windows.1
 ```
 
-<br>
 
 
 
