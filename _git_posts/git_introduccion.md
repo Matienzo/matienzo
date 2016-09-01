@@ -8,9 +8,6 @@ position: 1
 
 Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux. Es por mucho, el sistema de control de versiones mas usado del mundo.
 
-![Git Logo](/images/companies_using_git.jpg){: .center-image .img-responsive }
-
-
 A diferencia de los sistemas centralizados como *Subversion*, los VCS(version control system) distribuidos <strong>manejan una copia local del repositorio</strong>, por lo que no necesitan estar conectados a un repositorio central para trabajar con los archivos.
 
 Esto hace que uno pueda estar en un avión trabajando en su repositorio local (con toda su historia hasta que lo llegamos a clonar) y luego sincronizar los cambios con algun repositorio "central". 
