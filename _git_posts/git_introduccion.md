@@ -6,23 +6,39 @@ position: 1
 
 #### Qué es Git?
 
-Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux.
+Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux. Algunas compañias y proyectos importantes que utilizan Git
+
+1. Google
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+5. 
+
+
 
 A diferencia de los sistemas centralizados como *Subversion*, los VCS(version control system) distribuidos <strong>manejan una copia local del repositorio</strong>, por lo que no necesitan estar conectados a un repositorio central para trabajar con los archivos.
 
+![Git Logo](https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png){: .center-image .img-responsive }
 
 
+<img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png" class="center-image" style="display: block;	max-width: 50%;	height: auto;">
 
 
-
+#### Instalación
 ------
-Para instalar Git debemos bajarlo de su pagina oficial. Git.scm.com
-Para probar si quedo bien instalado:
+Para instalar Git debemos bajarlo de su página oficial [git-scm.com](https://git-scm.com/ "Página oficial de Git")
+Para probar si quedó bien instalado:
+
 ```sh
 $ git --version
-Esto debería devolver algo así como "git version 2.5.1.windows.1"
+git version 2.5.1.windows.1
 ```
+
 Esto debería devolver algo así como "git version 2.5.1.windows.1"
+
+
 
 
 Una vez instalado 
