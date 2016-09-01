@@ -38,7 +38,7 @@ Initialized empty Git repository in <directory>
 ------
 La otra forma de comenzar a usar git es clonando un repositorio ya existente. Para ello se utiliza el comando <strong>*git clone*</strong>. 
 
-Clonar el repositorio de Laravel (alojado en Github)
+Clonando el repositorio oficial de Laravel (alojado en Github)
 {: .info }
 ```sh
 $ git clone https://github.com/laravel/laravel.git
