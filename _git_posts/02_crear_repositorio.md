@@ -18,14 +18,14 @@ $ git init
 Initialized empty Git repository in ... (path)
 ```
 
-Inicializa un repositorio vacío en el directorio especificado.
+Inicializar un repositorio vacío en el directorio especificado.
 {: .info }
 ```sh
 $ git init <directory>
 Initialized empty Git repository in <directory>
 ```
 
-Inicializa un repositorio vacío en el directorio especificado. Este repositorio no tiene working copy, osea no tiene el código. <strong> Los repositorios compartidos deben ser siempre --bare.</strong>
+Inicializar un repositorio "--bare". Este repositorio no tiene working copy, osea no tiene el código. <strong> Los repositorios compartidos deben ser siempre --bare.</strong>
 {: .info }
 ```sh
 $ git init --bare <directory>
