@@ -15,14 +15,14 @@ Esto hace que uno pueda estar en un avión trabajando en su repositorio local (c
 
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png" class="center-image" style="display: block;	max-width: 70%;	height: auto;">
 
+En la imagen se ve claramente como en un sistema de control de versiones distribuida, cada repositorio clonado es una copia exacta del repositorio remoto.
 <br>
+
 <br>
 
 #### Instalación
 ------
-Para instalar Git debemos bajarlo de su página oficial [git-scm.com](https://git-scm.com/ "Página oficial de Git").
-<br>
-Para probar si quedó bien instalado:
+Para instalar Git debemos bajarlo de su página oficial [git-scm.com](https://git-scm.com/ "Página oficial de Git"). Para probar si quedó bien instalado:
 
 ```sh
 $ git --version
