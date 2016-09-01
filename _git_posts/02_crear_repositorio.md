@@ -16,14 +16,14 @@ $ git init
 Initialized empty Git repository in ... (path)
 ```
 Inicializa un repositorio vacío en el directorio actual.
-
+<br>
 
 ```sh
 $ git init <directory>
 Initialized empty Git repository in <directory>
 ```
 Inicializa un repositorio vacío en el directorio especificado.
-
+<br>
 
 ```sh
 $ git init --bare <directory>
