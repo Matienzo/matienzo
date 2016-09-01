@@ -5,16 +5,12 @@ position: 1
 ![Git Logo](/images/git_logo2.jpg){: .center-image .img-responsive }
 
 #### Qué es Git?
-
+------
 Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux. Es por mucho, el sistema de control de versiones mas usado del mundo.
 
 A diferencia de los sistemas centralizados como *Subversion*, los VCS(version control system) distribuidos <strong>manejan una copia local del repositorio</strong>, por lo que no necesitan estar conectados a un repositorio central para trabajar con los archivos.
 
 Esto hace que uno pueda estar en un avión trabajando en su repositorio local (con toda su historia hasta que lo llegamos a clonar) y luego sincronizar los cambios con algun repositorio "central". 
-
-
-![Git Logo](https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png){: .center-image .img-responsive }
-
 
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png" class="center-image" style="display: block;	max-width: 70%;	height: auto;">
 
@@ -30,38 +26,6 @@ git version 2.5.1.windows.1
 ```
 
 Esto debería devolver algo así como "git version 2.5.1.windows.1"
-
-
-
-
-Una vez instalado 
-
-
-
-For production environments...
-
-```sh
-$ npm install --production
-$ npm run predeploy
-$ NODE_ENV=production node app
-```
-
-
-
-
-#### Cuarto titulo
-<hr>
-
-
-##### Quinto titulo
-<hr>
-
-
-###### Sexto titulo
-<hr>
-
-<hr>
-
 
 
 
