@@ -6,24 +6,20 @@ position: 1
 
 #### Qué es Git?
 
-Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux. Algunas compañias y proyectos importantes que utilizan Git
+Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux. Es por mucho, el sistema de control de versiones mas usado del mundo.
 
-1. Google
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-5. 
-
+![Git Logo](/images/companies_using_git.jpg){: .center-image .img-responsive }
 
 
 A diferencia de los sistemas centralizados como *Subversion*, los VCS(version control system) distribuidos <strong>manejan una copia local del repositorio</strong>, por lo que no necesitan estar conectados a un repositorio central para trabajar con los archivos.
 
+Esto hace que uno pueda estar en un avión trabajando en su repositorio local (con toda su historia hasta que lo llegamos a clonar) y luego sincronizar los cambios con algun repositorio "central". 
+
+
 ![Git Logo](https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png){: .center-image .img-responsive }
 
 
-<img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png" class="center-image" style="display: block;	max-width: 50%;	height: auto;">
+<img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png" class="center-image" style="display: block;	max-width: 70%;	height: auto;">
 
 
 #### Instalación
