@@ -11,7 +11,7 @@ $ git commit -m "mensaje del commit" .   |   git commit --amend
 ```
 
 Para ver la historia de commits se usa el comando  <strong>*git log*</strong>.
-{: .success }
+{: .info }
 
 ```sh
 $ git log
