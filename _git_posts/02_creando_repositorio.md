@@ -8,10 +8,10 @@ Una vez tengamos inicializado o clonado un repositorio, git comenzará a hacerle
 #### Crear nuevo repositorio
 ------
 Para crear un repositorio vacío utilizamos el comando <strong>*git init*<strong>.<br>
+Esto crea una carpeta .git que contendrá toda la info del repositorio.
 
 
-
-Inicializar un repositorio vacío en el directorio actual o en un directorio específico:
+Ejemplo: Inicializar un repositorio vacío en el directorio actual o en un directorio específico:
 {: .info }
 ```sh
 $ git init

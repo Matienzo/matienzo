@@ -3,7 +3,7 @@ title: Confirmando cambios
 position: 5
 ---
 Para confirmar los cambios agregados al área de preparación utilizamos el comando <strong>*git commit*</strong>. <br>
-Si nos olvidamos de agregar un cambio en el commit podemos usar la bandera <strong>*--amend*</strong> para sumar unos archivos al ultimo commit.
+Si nos olvidamos de agregar un cambio en el commit podemos usar la bandera <strong>*---amend*</strong> para sumar unos archivos al último commit o incluso cambiar el nombre del commit.
 {: .info }
 
 ```sh

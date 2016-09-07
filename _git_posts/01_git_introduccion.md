@@ -7,12 +7,12 @@ position: 1
 #### Qué es Git?
 ------
 Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux. Es por mucho, el sistema de control de versiones mas usado del mundo.
-
+Esta linea no está en el área de preparación.
 
 
 VCS Centralizado vs VCS distribuido. <br>
 <strong> Centralizado:</strong>  Sólo tiene una copia de los archivos, necesita conectarse al repositorio central para trabajar con el. <br>
-<strong> Distribuido:</strong>  Tiene una copia exacta local del repositorio, se puede trabajar localmente con el repositorio (hacer commit, branches, etc) 
+<strong> Distribuido:</strong>  Tiene una copia exacta local del repositorio, se puede trabajar localmente con el repositorio (hacer commit, branches, etc)
 {: .info }
 
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png" class="center-image" style="display: block;	max-width: 70%;	height: auto;">
