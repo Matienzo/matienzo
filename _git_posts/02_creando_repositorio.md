@@ -6,8 +6,7 @@ Hay dos formas de empezar a trabajar con Git. Una es creando un repositorio y ot
 
 #### Crear nuevo repositorio
 ------
-Para crear un repositorio utilizamos el comando <strong>*git init*<strong>.
-
+Para crear un repositorio vacío utilizamos el comando <strong>*git init*<strong>.
 
 Una vez inicializado, git comienza a hacerle un seguimiento a todos los cambios que se produzcan en el directorio donde está el repositorio.
 
@@ -36,7 +35,7 @@ Initialized empty Git repository in <directory>
 
 #### Clonar un repositorio existente
 ------
-La otra forma de comenzar a usar git es clonando un repositorio ya existente. Para ello se utiliza el comando <strong>*git clone*</strong>. 
+Para clonar un repositorio se utiliza el comando <strong>*git clone*</strong>.
 
 Clonando el repositorio oficial de Laravel (alojado en Github)
 {: .info }
@@ -50,11 +49,4 @@ Resolving deltas: 100% (16592/16592), done.
 Checking connectivity... done.
 ```
 
-Con esto tendríamos el repositorio de Laravel completo en nuestra computadora. Podemos ver toda su historia (+5000 commits, 5 branches, 60 releases).
-
-
-
-
-
-
-
+Con esto tendríamos el repositorio de Laravel completo en nuestra carpeta local. Podemos ver toda su historia (+5000 commits, 5 branches, 60 releases etc).
