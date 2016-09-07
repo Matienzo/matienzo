@@ -45,6 +45,35 @@ Changes not staged for commit:
 Las diferencias entre lo que esta en el directorio de trabajo o en el área de preparación lo podemos ver con <strong>*git diff*</strong>.
 {: .info }
 
+~~~ javascript
+$.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
+  alert(data);
+});
+~~~
+{: title="jQuery" }
+
+~~~ python
+r = requests.get("http://api.myapp.com/books/", token="YOUR_APP_KEY")
+print r.text
+~~~
+{: title="Python" }
+
+~~~ javascript
+var request = require("request");
+request("http://api.myapp.com/books?token=YOUR_APP_KEY", function (error, response, body) {
+  if (!error && response.statusCode == 200) {
+    console.log(body);
+  }
+});
+~~~
+{: title="Node.js" }
+
+~~~ bash
+curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
+~~~
+{: title="Curl" }
+
+
 ~~~ sh
 $ git diff
 //Este comando muestra las diferencias de los archivos que no estan en el área de preparacion
