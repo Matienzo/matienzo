@@ -4,7 +4,6 @@ position: 7
 ---
 Las ramas son utilizadas para desarrollar funcionalidades aisladas unas de otras. La rama master es la rama "por defecto" cuando creas un repositorio.
 
-{: .info }
 
 ![Git Logo](/images/branch.png){: .center-image .img-responsive }
 

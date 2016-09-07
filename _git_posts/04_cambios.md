@@ -7,7 +7,7 @@ cambios que uno va realizando en los archivos a medida que va trabajando. <br>
 Uno debe agregar los archivos al área de preparación de forma <strong>explícita</strong> (git add y git rm).
 
 
-Agregando y quitando archivos modificados del área de preparación:.
+Agregar archivos modificados al área de preparación:
 {: .info }
 
 ```sh
@@ -15,11 +15,15 @@ $ git add .
 $ git add <file or directory>     
 $ git add *.js app/Http/Controllers/Controller.php app/Http/Routes    
 
+```
 
+Remover un archivo de la copia de trabajo:
+{: .info }
+
+```sh
 $ git rm .  
 $ git rm <file or directory>
 $ git rm *.json
-
 ```
 
 Para saber qué archivos cambiaron desde el último commit usamos el comando <strong>*git status*</strong>. Esto nos permite saber que cambios se hicieron en el directorio de trabajo y cuales estan en el área de preparación.

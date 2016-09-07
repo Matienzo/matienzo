@@ -7,7 +7,7 @@ position: 1
 #### Qué es Git?
 ------
 Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux. Es por mucho, el sistema de control de versiones mas usado del mundo.
-Esta linea no está en el área de preparación.
+
 
 
 VCS Centralizado vs VCS distribuido. <br>

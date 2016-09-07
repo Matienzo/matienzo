@@ -7,7 +7,12 @@ Si nos olvidamos de agregar un cambio en el commit podemos usar la bandera <stro
 {: .info }
 
 ```sh
-$ git commit -m "mensaje del commit" .   |   git commit --amend
+$ git commit -m "mensaje del commit" .
+[master c892c3b] Actualizado - git introduccion
+ 4 files changed, 20 insertions(+), 56 deletions(-)
+
+
+$ git commit --amend 
 ```
 
 Para ver la historia de commits se usa el comando  <strong>*git log*</strong>.
