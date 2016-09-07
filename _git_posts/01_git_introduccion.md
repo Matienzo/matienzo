@@ -8,10 +8,11 @@ position: 1
 ------
 Git es un sistema de control de versiones <strong>distribuido</strong>. Fue creado por Linus Torvalds y ha sido utilizado para mantener el kernel de Linux. Es por mucho, el sistema de control de versiones mas usado del mundo.
 
-A diferencia de los sistemas centralizados como *Subversion*, los VCS(version control system) distribuidos <strong>manejan una copia local del repositorio</strong>, por lo que no necesitan estar conectados a un repositorio central para trabajar con los archivos.
-<br>
 
-VCS Centralizado vs VCS distribuido. <br> Se ve claramente como en un sistema de control de versiones distribuida, cada repositorio clonado es una copia exacta del repositorio remoto.
+
+VCS Centralizado vs VCS distribuido. <br>
+<strong> Centralizado:</strong>  Sólo tiene una copia de los archivos, necesita conectarse al repositorio central para trabajar con el. <br>
+<strong> Distribuido:</strong>  Tiene una copia exacta local del repositorio, se puede trabajar localmente con el repositorio (hacer commit, branches, etc) 
 {: .info }
 
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/02-mac/07-appendix/02-from-subversion-to-git/centralized-vs-distributed.png" class="center-image" style="display: block;	max-width: 70%;	height: auto;">

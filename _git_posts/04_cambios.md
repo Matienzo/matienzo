@@ -2,10 +2,11 @@
 title: Realizando cambios
 position: 4
 ---
-Git tiene un índice (index),que funciona como una especie de área de desarrollo (área de preparación) para los
-cambios que uno va generando en los archivos a medida que va trabajando.
+Git tiene un índice (index), que funciona como una especie de área de preparación para los
+cambios que uno va realizando en los archivos a medida que va trabajando. <br>
 
-Para agregar cambios al "staging area" (área de preparación), usamos el comando <strong>*git add*</strong>.
+
+Para agregar archivos modificados al área de preparación usamos el comando <strong>*git add*</strong>.
 {: .info }
 
 ```sh
@@ -59,3 +60,37 @@ $ git diff HEAD
 //Este comando muestra todas las diferencias de los archivos desde el ultimo commit (sin importar si los cambios estan o no en el área de preparación)
 ~~~
 {: title="git diff HEAD" }
+
+
+
+
+
+Lists all the photos you have access to. You can paginate by using the parameters listed above.
+
+~~~ javascript
+$.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
+  alert(data);
+});
+~~~
+{: title="jQuery" }
+
+~~~ python
+r = requests.get("http://api.myapp.com/books/", token="YOUR_APP_KEY")
+print r.text
+~~~
+{: title="Python" }
+
+~~~ javascript
+var request = require("request");
+request("http://api.myapp.com/books?token=YOUR_APP_KEY", function (error, response, body) {
+  if (!error && response.statusCode == 200) {
+    console.log(body);
+  }
+});
+~~~
+{: title="Node.js" }
+
+~~~ bash
+curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
+~~~
+{: title="Curl" }

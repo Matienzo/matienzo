@@ -2,29 +2,28 @@
 title: Crear repositorios
 position: 2
 ---
-Hay dos formas de empezar a trabajar con Git. Una es creando un repositorio y otra es clonando un repositorio existente.
+Hay dos formas de empezar a trabajar con Git. Una es creando un repositorio y otra es clonando un repositorio existente. <br>
+Una vez tengamos inicializado o clonado un repositorio, git comenzará a hacerle un seguimiento a todos los archivos del repositorio (y a los que se vayan agregando).
 
 #### Crear nuevo repositorio
 ------
-Para crear un repositorio vacío utilizamos el comando <strong>*git init*<strong>.
-Una vez inicializado, git comienza a hacerle un seguimiento a todos los cambios que se produzcan en el directorio donde está el repositorio.
-{: .info }
+Para crear un repositorio vacío utilizamos el comando <strong>*git init*<strong>.<br>
 
-Inicializar un repositorio vacío en el directorio actual:
+
+
+Inicializar un repositorio vacío en el directorio actual o en un directorio específico:
 {: .info }
 ```sh
 $ git init
 Initialized empty Git repository in ... (path)
-```
 
-Inicializar un repositorio vacío en el directorio especificado:
-{: .info }
-```sh
 $ git init <directory>
 Initialized empty Git repository in <directory>
+
 ```
 
-Inicializar un repositorio "--bare". Este repositorio no tiene working copy, osea no tiene el código. <strong> Los repositorios compartidos deben ser siempre --bare.</strong>
+Inicializar un repositorio "---bare". Estos repositorios no tiene copia de trabajo. <br>
+<strong> Los repositorios compartidos deben ser siempre ---bare.</strong>
 {: .info }
 ```sh
 $ git init --bare <directory>
@@ -35,9 +34,10 @@ Initialized empty Git repository in <directory>
 
 #### Clonar un repositorio existente
 ------
-Para clonar un repositorio se utiliza el comando <strong>*git clone*</strong>.
+Para clonar un repositorio se utiliza el comando <strong>*git clone*</strong>. Una vez clonado un repositorio, tendremos la copia exacta del repositorio al momento de la clonación, por lo que podremos ver toda su historia.
+{: .info }
 
-Clonando el repositorio oficial de Laravel (alojado en Github)
+Ejemplo: Clonar el repositorio oficial de Laravel (alojado en Github)
 {: .info }
 ```sh
 $ git clone https://github.com/laravel/laravel.git
