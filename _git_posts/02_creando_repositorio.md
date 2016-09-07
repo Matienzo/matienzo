@@ -7,8 +7,8 @@ Hay dos formas de empezar a trabajar con Git. Una es creando un repositorio y ot
 #### Crear nuevo repositorio
 ------
 Para crear un repositorio vacío utilizamos el comando <strong>*git init*<strong>.
-
 Una vez inicializado, git comienza a hacerle un seguimiento a todos los cambios que se produzcan en el directorio donde está el repositorio.
+{: .info }
 
 Inicializar un repositorio vacío en el directorio actual:
 {: .info }
