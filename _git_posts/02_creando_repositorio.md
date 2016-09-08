@@ -4,6 +4,7 @@ position: 2
 ---
 Hay dos formas de empezar a trabajar con Git. Una es creando un repositorio y otra es clonando un repositorio existente. <br>
 Una vez tengamos inicializado o clonado un repositorio, git comenzará a hacerle un seguimiento a todos los archivos del repositorio (y a los que se vayan agregando).
+<br>
 
 #### Crear nuevo repositorio
 ------

@@ -3,45 +3,36 @@ title: Buenas Practicas
 position: 9
 ---
 #### Realizar commits de cambios relacionados
-#### Clonar un repositorio existente
 ------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Un commit debe englobar cambios relacionados. Por ejemplo, para arreglar 2 errores o bugs diferentes se deberian producir dos commits diferentes. Commits pequeños hacen mas facil la lectura para otros desarrolladores. Con la ayuda del área de preparación git hace facil la creación de commits pequeños.
 
 
 #### Hacer commits regularmente
-#### Clonar un repositorio existente
 ------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Di officia deserunt mollit anim id est laborum.
+Tener commits pequeños y subirlos regularmente ayuda a la facilidad de integrar cambios y resolver conflictos.
+
 
 
 
 #### No hacer commits con cambios "a la mitad"
-#### Clonar un repositorio existente
 ------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tofficia deserunt mollit anim id est laborum.
+Se deben commitear cambios cuando el código esté completo. Esto no significa que se tiene que completar una nueva característica para hacer un commit. Se puede dividir un cambio en varias partes y commitear separado.
 
 
 #### Probar bien los cambios antes de commitearlos
-#### Clonar un repositorio existente
 ------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aut
+Se debe resistir a la tentación de algo que "parece" que está bien. Esto es mas importante si subimos los cambios a un repositorio remoto.
 
 
 #### Escribir buenos mensajes de commits
-#### Clonar un repositorio existente
 ------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do equat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+Para escribir buenos mensajes se recomienda preguntarse: <br>
+- Cual es la motivacion del cambio?<br>
+- Como difiera de la implementación anterior?<br>
+A su vez, debe estar escrito en presente.
 
 
 #### Usar ramas
-#### Clonar un repositorio existente
 ------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nn culpa qui officia deserunt mollit anim id est laborum.
-
-
-
-#### Ponerse de acuerdo en un Flujo de Trabajo
-#### Clonar un repositorio existente
-------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Las ramas son una de las características mas importantes de git. Se deben usar siempre desde el día cero para nuevos cambios, reparación de errores, nuevas ideas, etc.<br>
+Muchos utilizan 3 ramas: Development, Master y HotFix o Feature.

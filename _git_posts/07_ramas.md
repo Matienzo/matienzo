@@ -8,7 +8,7 @@ Las ramas son utilizadas para desarrollar funcionalidades aisladas unas de otras
 ![Git Logo](/images/branch.png){: .center-image .img-responsive }
 
 
-Crear una nueva rama llamada "feature_x"
+Crear una nueva rama llamada "feature_x". (el flag "-b" hace que se cree una nueva rama si no la encuentra)
 {: .info }
 ~~~ sh
 $ git checkout -b feature_x

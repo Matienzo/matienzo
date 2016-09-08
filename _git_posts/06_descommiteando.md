@@ -16,7 +16,7 @@ Esta operación no se puede revertir.
 ~~~ sh
 $ git checkout -- <filename>
 
-$git checkout
+$ git checkout
 
 ~~~
 
@@ -29,11 +29,9 @@ $ git reset --hard origin/master
 ~~~
 
 
-En caso de que se cometa un error y se desee restaurar un archivo (o todos) al ultimo commit, se usa el comando <strong>*git checkout -- <filename>*</strong>
+En caso de que se cometa un error y se desee restaurar un archivo (o todos) al ultimo commit, se usa el comando <strong>git checkout -- <filename> </strong><br>
 {: .info }
+~~~ sh
+$ git checkout <filename>
 
-
-
-
-
-git reset
+~~~
