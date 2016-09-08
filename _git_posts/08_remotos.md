@@ -44,6 +44,6 @@ $ git pull origin master
 $ git fetch origin master
 ~~~
 
-Git pull: Hace un git fetch && git merge
+Git pull: Hace un git fetch && git merge<br>
 Git fetch: Trae cambios sin hacer merge
 {: .success }
