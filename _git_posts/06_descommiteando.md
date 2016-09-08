@@ -17,7 +17,7 @@ Esta operación no se puede revertir.
 ~~~ sh
 $ git checkout -- <filename>
 
-$ git checkout
+$ git checkout 5678ab (commit) 
 
 ~~~
 
