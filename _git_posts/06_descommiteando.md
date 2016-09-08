@@ -9,8 +9,9 @@ El comando *git status* muestra como deshacer cambios.
 Hay que tener cuidado porque no siempre se puede volver atrás después de algunas de estas operaciones y se pueden perder datos.
 {: .error }
 
-Deshacer los cambios de la copia local al último commit <strong>*git checkout*</strong><br>
-Esta operación no se puede revertir:
+
+Deshaciendo los cambios de la copia local al último commit <strong>*git checkout*</strong><br>
+Esta operación no se puede revertir.
 {: .info }
 
 ~~~ sh
@@ -20,7 +21,8 @@ $ git checkout
 
 ~~~
 
-Por otro lado, si se quiere deshacer todos los cambios locales y commits locales:
+
+Por otro lado, si se quiere deshacer todos los cambios locales y commits locales,
 {: .danger }
 
 ~~~ sh
