@@ -3,7 +3,7 @@ title: Javascript
 position: 1.0
 description: Introducción
 right_code: |
-  ~~~ json
+  ~~~ javascript
     //alerta que muestra el navegador
     alert("Hola Mundo");
     //mensaje por consola
@@ -17,7 +17,7 @@ right_code: |
   ~~~
   {: title="Vanilla JS" }
 
-  ~~~ json
+  ~~~ javascript
   function cambiarTexto(){
   var elemento = $("#javascriptbooks_list");
   elemento.text("Jquery cambió esto");
