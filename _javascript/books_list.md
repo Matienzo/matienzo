@@ -4,30 +4,36 @@ position: 1.0
 description: Introducción
 right_code: |
   ~~~ json
-  [
-    {
-      "id": 1,
-      "title": "The Hunger Games",
-      "score": 4.5,
-      "dateAdded": "12/12/2013"
-    },
-    {
-      "id": 1,
-      "title": "The Hunger Games",
-      "score": 4.7,
-      "dateAdded": "15/12/2013"
-    },
-  ]
+    //alerta que muestra el navegador
+    alert("Hola Mundo");
+    //mensaje por consola
+    console.log("Hola Mundo");
+
+    //definicion de una funcion para cambiar texto de un elemento del DOM
+    function cambiarTexto(){
+    var elemento = document.getElementById("javascriptbooks_list");
+    elemento.innerHTML= "Cambiando el texto con Javascript Puro";
+    };
   ~~~
-  {: title="Response" }
+  {: title="Vanilla JS" }
 
   ~~~ json
-  {
-    "error": true,
-    "message": "Invalid offset"
-  }
+  function cambiarTexto(){
+  var elemento = $("#javascriptbooks_list");
+  elemento.text("Jquery cambió esto");
+  };
+
+  /*otro ejemplo*/
+  //defino una variable global
+  var variableGlobal=0;
+
+  //añadir eventos de click a un determinado elemento
+  $("h1").on('click',function(){
+    variableGlobal+=1;
+    console.log("numero de clicks = "+variableGlobal);
+  });
   ~~~
-  {: title="Error" }
+  {: title="Jquery" }
 ---
 
 JavaScript (abreviado JS) es un lenguaje interpretado, orientado a objetos, basado en prototipos, imperativo, debilmente tipado y dinamico.
@@ -55,7 +61,6 @@ function cambiarTexto(){
 var elemento = document.getElementById("javascriptbooks_list");
 elemento.innerHTML= "Cambiando el texto con Javascript Puro";
 };
-
 ~~~
 {: title="Vanilla Js" }
 
@@ -63,12 +68,10 @@ elemento.innerHTML= "Cambiando el texto con Javascript Puro";
 
 
 ~~~ javascript
-
 function cambiarTexto(){
 var elemento = $("#javascriptbooks_list");
 elemento.text("Jquery cambió esto");
 };
-
 
 /*otro ejemplo*/
 //defino una variable global
@@ -79,7 +82,6 @@ $("h1").on('click',function(){
   variableGlobal+=1;
   console.log("numero de clicks = "+variableGlobal);
 });
-
 ~~~
 {: title="Jquery" }
 
