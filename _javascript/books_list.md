@@ -1,8 +1,7 @@
 ---
-title: /books
+title: Javascript 
 position: 1.0
-type: get
-description: List all books
+description: Introducción
 right_code: |
   ~~~ json
   [
@@ -30,41 +29,60 @@ right_code: |
   ~~~
   {: title="Error" }
 ---
-offset
-: Offset the results by this amount
 
-limit
-: Limit the number of books returned
-
-This call will return a maximum of 100 books
+JavaScript (abreviado JS) es un lenguaje interpretado, orientado a objetos, basado en prototipos, imperativo, debilmente tipado y dinamico.
+{: .info }
+Principalmente se usa del lado del cliente
+{: .info }
+Todos los navegadores modernos interpretan el código JavaScript.
+{: .info }
+Para interactuar con una página web se provee al lenguaje JavaScript de una implementación del Document Object Model (DOM).
+{: .info }
+Javascript corre del lado del cliente y tambien del lado del servidor (nodejs, io.js, etc)
 {: .info }
 
-Lists all the photos you have access to. You can paginate by using the parameters listed above.
+
+
 
 ~~~ javascript
-$.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
-  alert(data);
-});
-~~~
-{: title="jQuery" }
+//alerta que muestra el navegador
+alert("Hola Mundo");
+//mensaje por consola
+console.log("Hola Mundo");
 
-~~~ python
-r = requests.get("http://api.myapp.com/books/", token="YOUR_APP_KEY")
-print r.text
+//definicion de una funcion para cambiar texto de un elemento del DOM
+function cambiarTexto(){
+var elemento = document.getElementById("javascriptbooks_list");
+elemento.innerHTML= "Cambiando el texto con Javascript Puro";
+};
+
 ~~~
-{: title="Python" }
+{: title="Vanilla Js" }
+
+
+
 
 ~~~ javascript
-var request = require("request");
-request("http://api.myapp.com/books?token=YOUR_APP_KEY", function (error, response, body) {
-  if (!error && response.statusCode == 200) {
-    console.log(body);
-  }
-});
-~~~
-{: title="Node.js" }
 
-~~~ bash
-curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
+function cambiarTexto(){
+var elemento = $("#javascriptbooks_list");
+elemento.text("Jquery cambió esto");
+};
+
+
+/*otro ejemplo*/
+//defino una variable global
+var variableGlobal=0;
+
+//añadir eventos de click a un determinado elemento
+$("h1").on('click',function(){
+  variableGlobal+=1;
+  console.log("numero de clicks = "+variableGlobal);
+});
+
 ~~~
-{: title="Curl" }
+{: title="Jquery" }
+
+
+
+
