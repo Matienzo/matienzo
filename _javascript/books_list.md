@@ -4,23 +4,32 @@ position: 1.0
 description: Introducción
 right_code: |
   ~~~ javascript
-    //alerta que muestra el navegador
-    alert("Hola Mundo");
-    //mensaje por consola
-    console.log("Hola Mundo");
+  //mensaje de alerta
+  alert("Hola Mundo");
+  //mensaje por consola
+  console.log("Hola Mundo");
 
-    //definicion de una funcion para cambiar texto de un elemento del DOM
-    function cambiarTexto(){
+  //manipulación DOM
+  function cambiarTexto(){
     var elemento = document.getElementById("javascriptbooks_list");
     elemento.innerHTML= "Cambiando el texto con Javascript Puro";
-    };
+  };
+  
+  var variableGlobal=0;
+  var elemento = document.getElementById("javascriptbooks_list");
+ 
+  //eventos
+  elemento.addEventListener("click",function(e){
+    variableGlobal+=1;
+    console.log("numero de clicks = "+variableGlobal);
+  },false);
   ~~~
   {: title="Vanilla JS" }
 
   ~~~ javascript
   function cambiarTexto(){
-  var elemento = $("#javascriptbooks_list");
-  elemento.text("Jquery cambió esto");
+    var elemento = $("#javascriptbooks_list");
+    elemento.text("Jquery cambió esto");
   };
 
   /*otro ejemplo*/
@@ -58,8 +67,8 @@ console.log("Hola Mundo");
 
 //definicion de una funcion para cambiar texto de un elemento del DOM
 function cambiarTexto(){
-var elemento = document.getElementById("javascriptbooks_list");
-elemento.innerHTML= "Cambiando el texto con Javascript Puro";
+  var elemento = document.getElementById("javascriptbooks_list");
+  elemento.innerHTML= "Cambiando el texto con Javascript Puro";
 };
 ~~~
 {: title="Vanilla Js" }
@@ -69,8 +78,8 @@ elemento.innerHTML= "Cambiando el texto con Javascript Puro";
 
 ~~~ javascript
 function cambiarTexto(){
-var elemento = $("#javascriptbooks_list");
-elemento.text("Jquery cambió esto");
+  var elemento = $("#javascriptbooks_list");
+  elemento.text("Jquery cambió esto");
 };
 
 /*otro ejemplo*/
