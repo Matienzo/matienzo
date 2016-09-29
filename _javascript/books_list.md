@@ -2,6 +2,7 @@
 title: Javascript 
 position: 1.0
 description: Introducción
+---
 
 JavaScript (abreviado JS) es un lenguaje interpretado, orientado a objetos, basado en prototipos, imperativo, debilmente tipado y dinamico.
 {: .info }
